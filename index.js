@@ -19,12 +19,12 @@ const { exit } = require("process");
 var accessToken, expiry, accountId, refreshToken, organizationId, clickwraps, envelopes;
 
 //  These are on your apps and keys page at https://developers.docusign.com 
-let impersonationUserGuid = "";
-let integrationKey = "";
+let impersonationUserGuid = "3cd332f4-xxxx-xxxx-xxxx-caa629e25500"; // aka User ID
+let integrationKey = "872b9dfb-XXXX-XXXX-XXXX-f7d927613434";
 
 // For Authorization Code Grant ONLY
 
-let secretKey = "";
+let secretKey = "8b83dcc9-XXXX-XXXX-XXXX-0dadb725725d";
 
 // 'signature' for eSignature, organization_read to retreive your OrgId 
 let scopes = "signature+organization_read+click.manage+user_write";
